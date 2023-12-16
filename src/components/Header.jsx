@@ -6,6 +6,12 @@ const Header = () => {
       <a className="sidebar-toggle js-sidebar-toggle">
         <i className="hamburger align-self-center"></i>
       </a>
+
+      <form className="form-inline my-2 my-lg-0 ms-3">
+        <input className="form-control-lg mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        {/* <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
+      </form>
+      
       <div className="navbar-collapse collapse">
         <ul className="navbar-nav navbar-align">
           
